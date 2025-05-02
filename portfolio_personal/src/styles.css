@@ -31,22 +31,4 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
-/*Estilo Footer*/
-.footer-text {
-    font-family: 'Fira Code', monospace;
-    font-size: 1rem;
-    color: white;
-}
-  
-.footer {
-    background-color: #111;
-    border-top: 2px solid #ff4d4d;
-  }
-  
-.footer small {
-    font-family: 'Fira Code', monospace;
-    color: #aaa;
-    letter-spacing: 0.5px;
-}
   

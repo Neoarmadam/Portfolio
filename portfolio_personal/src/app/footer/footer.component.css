@@ -1,0 +1,21 @@
+.footer-text {
+    font-family: 'Fira Code', monospace;
+    font-size: 1rem;
+    color: white;
+}
+  
+.footer {
+    background-color: #111;
+    border-top: 2px solid #ff4d4d;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+  
+.footer small {
+    font-family: 'Fira Code', monospace;
+    color: #e21919;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+} 
