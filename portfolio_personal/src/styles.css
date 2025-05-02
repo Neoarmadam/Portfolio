@@ -1,3 +1,32 @@
 body {
     font-family: 'Fira Code', monospace;
+    background-color: #111;
+    color: white;
+}
+  
+.nav-link-custom {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    font-weight: 500;
+}
+  
+.nav-link-custom:hover {
+    color: #ff4d4d;
+    border-bottom: 2px solid #ff4d4d;
+}
+  
+.nav-highlight {
+    color: #ff4d4d;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+  
+.brand-title {
+    color: #ff4d4d;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
