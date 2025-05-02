@@ -1,0 +1,33 @@
+.project-card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-left: 4px solid #ff4d4d;
+    padding: 1.2rem;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    box-shadow: 0 4px 12px rgba(255, 77, 77, 0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* fuerza que todas las tarjetas ocupen el alto disponible */
+}
+  
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(255, 77, 77, 0.2);
+}
+  
+.project-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #ff4d4d;
+}
+  
+.project-card p {
+    flex-grow: 1;
+    color: #ccc;
+    font-size: 0.95rem;
+}
+  
+  
