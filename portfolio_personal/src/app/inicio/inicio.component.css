@@ -37,3 +37,16 @@
     color: #ddd;
     margin-bottom: 4px;
 }
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.border-red {
+    border: 2px solid #ff3c3c;
+}
+
+.border-red:hover {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.4);
+}
+  
