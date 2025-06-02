@@ -1,3 +1,10 @@
+.section-title {
+    font-family: 'Fira Code', monospace;
+    color: #ff4d4d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 .project-card {
     background-color: #1a1a1a;
     border: 1px solid #333;
@@ -29,11 +36,3 @@
     color: #ccc;
     font-size: 0.95rem;
 }
-  
-.section-title {
-    font-family: 'Fira Code', monospace;
-    color: #ff4d4d;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
