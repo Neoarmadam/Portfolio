@@ -30,4 +30,9 @@
     font-size: 0.95rem;
 }
   
-  
+.section-title {
+    font-family: 'Fira Code', monospace;
+    color: #ff4d4d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
