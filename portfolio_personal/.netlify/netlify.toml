@@ -1,0 +1,33 @@
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[[plugins]]
+origin = "default"
+package = "@netlify/angular-runtime"
+
+[plugins.inputs]
+
+[build]
+publish = "C:\\Users\\neoarmada\\OneDrive - Arambol Ingenieria S.L\\Carpeta de Usuario\\Documents\\Proyectos Github Personales\\Portfolio\\portfolio_personal\\dist\\portfolio_personal\\browser"
+publishOrigin = "ui"
+commandOrigin = "ui"
+base = "C:\\Users\\neoarmada\\OneDrive - Arambol Ingenieria S.L\\Carpeta de Usuario\\Documents\\Proyectos Github Personales\\Portfolio\\portfolio_personal"
+command = "npm run build"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
