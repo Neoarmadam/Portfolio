@@ -1,5 +1,5 @@
 html, body {
     font-family: 'Fira Code', monospace;
-    background-color: #111;
+    background-image: url('assets/fondo.png');
     color: white;
 }
